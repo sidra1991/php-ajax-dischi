@@ -70,7 +70,5 @@ $response = [
         'genre'=>'Pop',
         'year'=>'1987'
     ]];
-    
-    header('content-Type: application/json');
-    echo json_encode($response);
+
 ?>

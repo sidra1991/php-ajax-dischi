@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #1e2d3b;
+}
+
+header {
+    background-color: #2e3a46;
+    height: 2rem;
+}
+
+.container-card{
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1rem ;
+}
+
+.card {
+    height: 350px;
+    width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #2e3a46;
+}
+
+img {
+    width: 220px ;
+}
